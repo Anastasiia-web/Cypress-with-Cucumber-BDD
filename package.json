@@ -9,9 +9,9 @@
     "full-regression-headedless-chrome": "cypress run --browser chrome --spec 'cypress/e2e/*.feature'",
     "contact-us-headed-chrome": "cypress run --headed --browser chrome --spec 'cypress/e2e/Contact_Us.feature'",
     "contact-us-headed": "cypress run -e TAGS=\"@smoke\" --headed",
-    "contact-us": "cypress run -e TAGS=\"@smoke\"",
+    "contact-us-smoke": "cypress run -e TAGS=\"@smoke\"",
     "login-smoke-tests-headedless": "cypress run -e TAGS=\"@smoke or @login\"",
-    "regression-tests-headedless": "cypress run -e TAGS=\"@regression and not @smoke\""
+    "regression-pack-headedless": "cypress run -e TAGS=\"@regression and not @smoke\""
   },
   "author": "Anastasiia Ivashchenko",
   "license": "ISC",
