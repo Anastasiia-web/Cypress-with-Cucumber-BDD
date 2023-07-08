@@ -28,5 +28,6 @@ Then(
   `I should be presented with an alert box which contains text {string}`,
   (expectedAlertText) => {
     expect(stub).to.have.been.calledWith(expectedAlertText);
+    console.log(stub);
   }
 );

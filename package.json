@@ -11,7 +11,8 @@
     "contact-us-headed": "cypress run -e TAGS=\"@smoke\" --headed",
     "contact-us-smoke": "cypress run -e TAGS=\"@smoke\"",
     "login-smoke-tests-headedless": "cypress run -e TAGS=\"@smoke or @login\"",
-    "regression-pack-headedless": "cypress run -e TAGS=\"@regression and not @smoke\""
+    "regression-pack-headedless": "cypress run -e TAGS=\"@regression and not @smoke\"",
+    "test-feature": "cypress run --headed -e TAGS=\"@t\""
   },
   "author": "Anastasiia Ivashchenko",
   "license": "ISC",

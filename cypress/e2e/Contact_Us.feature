@@ -29,7 +29,7 @@ Feature: WebdriverUniversity - Contact Us Page
         And I click on the submit button
         Then I should be presented with a successful contact us submission message
 
-    @smoke
+    @smoke @t
 
     Scenario Outline: Validate Contact Us page
         And I type a first name <firstName> and a last name '<lastName>'
@@ -41,4 +41,4 @@ Feature: WebdriverUniversity - Contact Us Page
             | firstName | lastName | emailAddress    | comment        | message                      |
             | Firstna   | Firstla  | first@gmail.com | first comment  | Thank You for your Message!  |
             | Secondna  | Secondla | invalidemail    | second comment | Error: Invalid email address |
-            | Thirdna   | Thirdla  | first@gmail.com | third comment  | Thank You for your Message!  |
+            | Thirdna   | Thirdla  | third@gmail.com | third comment  | Thank You for your Message!  |
